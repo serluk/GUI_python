@@ -19,6 +19,9 @@
   <property name="windowTitle">
    <string>Инструктор</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
@@ -51,6 +54,9 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(0, 0, 0);</string>
+    </property>
     <property name="text">
      <string>Документы</string>
     </property>
@@ -69,6 +75,9 @@
       <pointsize>14</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="text">
      <string>Тесты</string>
     </property>
@@ -86,6 +95,11 @@
      <font>
       <pointsize>14</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
     </property>
     <property name="text">
      <string>Ученики</string>
@@ -132,8 +146,11 @@
       <height>51</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="button_screen">
     <property name="geometry">
      <rect>
       <x>280</x>
@@ -147,11 +164,14 @@
       <pointsize>12</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="text">
      <string>Смотреть экран</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="screen_show_button">
     <property name="geometry">
      <rect>
       <x>460</x>
@@ -165,8 +185,32 @@
       <pointsize>11</pointsize>
      </font>
     </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
     <property name="text">
      <string>Демонстрация экрана</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="chat_instructor_button">
+    <property name="geometry">
+     <rect>
+      <x>699</x>
+      <y>20</y>
+      <width>151</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Открыть чат</string>
     </property>
    </widget>
   </widget>
