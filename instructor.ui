@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1114</width>
+    <width>1441</width>
     <height>833</height>
    </rect>
   </property>
@@ -22,10 +22,10 @@
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
-     <x>10</x>
-     <y>20</y>
-     <width>181</width>
-     <height>811</height>
+     <x>0</x>
+     <y>120</y>
+     <width>231</width>
+     <height>701</height>
     </rect>
    </property>
    <property name="frameShape">
@@ -34,11 +34,14 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
+   <property name="lineWidth">
+    <number>2</number>
+   </property>
    <widget class="QPushButton" name="doc_button">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>130</y>
+      <x>60</x>
+      <y>70</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -55,8 +58,8 @@
    <widget class="QPushButton" name="test_button">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>301</y>
+      <x>60</x>
+      <y>220</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -73,8 +76,8 @@
    <widget class="QPushButton" name="student_button">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>470</y>
+      <x>60</x>
+      <y>370</y>
       <width>131</width>
       <height>51</height>
      </rect>
@@ -86,6 +89,84 @@
     </property>
     <property name="text">
      <string>Ученики</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>-1</x>
+     <y>-1</y>
+     <width>231</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame_3">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>10</y>
+     <width>1211</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>241</width>
+      <height>51</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>20</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Смотреть экран</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>20</y>
+      <width>221</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>11</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Демонстрация экрана</string>
     </property>
    </widget>
   </widget>
